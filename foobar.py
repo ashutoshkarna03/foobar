@@ -81,6 +81,8 @@ class FoobarClass:
 
         df = pd.read_csv("student_responses.csv", header=None, delimiter=",", names=column_names)
         data=[]
+        if not isinstance(self.code_map,dict):
+            return []
         card_key_list = list(self.code_map.keys())
         for i, j in df.iterrows(): 
             column_value_list=[str(x) for x in df.iloc[i].tolist()]
@@ -116,6 +118,8 @@ class FoobarClass:
         """
         card_data=self.read_data()
         result=[]
+        if not isinstance(self.max_score,int):
+            return []
         for d in card_data:
             key=list(d.keys())[0]
             value=list(d.values())[0]
@@ -133,7 +137,7 @@ class FoobarClass:
                     }
                 )
             else:
-                pass
+                return []
             
         return result
 
