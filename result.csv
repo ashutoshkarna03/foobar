@@ -1,0 +1,12 @@
+,student_id,raw_score,percentage
+0,test@test.com,6,0.3
+1,han.solo@milleniumfalcon.com,10,0.5
+2,palpatine@council.org,18,0.9
+3,rey@tatooine.com,0,0.0
+4,lando.calrissian@bespincloudcity.com,20,1.0
+5,luke.skywalker@tatooine.com,5,0.25
+6,darth.vader@darkside.net,11,0.55
+7,palpatine@council.org,18,0.9
+8,mace.windu@force.net,-16,-0.8
+9,palptine@council.org,18,0.9
+10,test@test.com,5,0.25
